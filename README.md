@@ -48,3 +48,54 @@ sudo apt-get -y install cuda
 sudo reboot
 `
 
+# 3.cuDNN kurulumu
+
+Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com/rdp/cudnn-archive sitesinden indir.
+
+1. Cuda 11.8 için cudnn 8.6 sürümünü indireceksin.
+2. terminalden `cd "dosyanın konumu"` komutunu kullanarak indirdiğin cudnn dosyası'nın olduğu dizine git
+3. Bu komutu kullanarak indirilen paketi yerel paket deposuna ekle
+`sudo dpkg -i cudnn-local-repo-${OS}-8.x.x.x_1.0-1_amd64.deb`
+5. CUDA GPG anahtarını içe aktar.
+`sudo cp /var/cudnn-local-repo-*/cudnn-local-*-keyring.gpg /usr/share/keyrings/`
+6. `sudo apt update`
+7. `sudo apt list libcudnn8` libcudnn8'in mevcut sürümlerümünü kontrol etmek için komutu çalıştır.
+ör = libcudnn8/bilinmeyen,now 8.6.0.163-1+cuda11.8 amd64
+9. `sudo apt install libcudnn8=8.x.x.x-1+cudaX.Y` 8.x.x.x-1+cudaX.Y bu kısmı kurulu CUDA sürümüne uygun olarak şekilde güncelle.
+ör = `sudo apt install libcudnn8=8.6.0.163-1+cuda11.8`
+10. `sudo apt install libcudnn8-dev=8.x.x.x-1+cudaX.Y` 8.x.x.x-1+cudaX.Y bu kısmı kurulu CUDA sürümüne uygun olarak şekilde güncelle.
+11. `sudo apt install libcudnn8-samples=8.x.x.x-1+cudaX.Y` 8.x.x.x-1+cudaX.Y bu kısmı kurulu CUDA sürümüne uygun olarak şekilde güncelle.
+
+# 4.cuDNN kurulumunu doğrula.
+
+`sudo apt-get install libfreeimage3 libfreeimage-dev` kütüphanelerini yükle.
+
+`cp -r /usr/src/cudnn_samples_v8/ $HOME`
+
+`cd  $HOME/cudnn_samples_v8/mnistCUDNN`
+
+`make clean && make`
+
+`./mnistCUDNN`
+
+CuDNN, Linux düzgün bir şekilde yüklenmiş ve çalışıyorsa, aşağıdakine benzer bir mesaj göreceksin:
+
+`Test passed!`
+
+Not. Test Başarılı görüntülenmiyorsa eksik bir paketin kurulması gerekebilir. Terminal çıkışında belirtilen paketleri kur ve 4. adımı tekrar uygula ve tekrardan cuDNN kurulumunu doğrula.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
