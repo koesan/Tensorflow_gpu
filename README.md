@@ -81,7 +81,7 @@ CuDNN, Linux düzgün bir şekilde yüklenmiş ve çalışıyorsa, aşağıdakin
 
 `Test passed!`
 
-Not. Test Başarılı görüntülenmiyorsa, eksik bir paketin kurulması gerekebilir. Terminal çıkışında belirtilen paketleri kur ve 4. adımı tekrar uygula ve tekrardan cuDNN kurulumunu doğrula.
+Not. Test Başarılı olmadıysa, eksik bir paketin kurulması gerekebilir. Terminal çıkışında belirtilen paketleri kur ve 4. adımı tekrar uygula ve tekrardan cuDNN kurulumunu doğrula.
 
 # 5.Tensorflow kurulumu.
 
