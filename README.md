@@ -94,8 +94,8 @@ Terminalde
 Terminali açıp
 
 1. `python3` komutunu çalıştırın
-2. `import tensorflow as tf` kodu ile tensorflow kütüphanesi'nin importedin
-3. `print(tf.test.is_gpu_available())` kodunu çıktısı True ise kurulum başarılı olmuştur.
+2. `import tensorflow as tf` kodu ile tensorflow kütüphanesi'nin importet
+3. `print(tf.test.is_gpu_available())` kodunu çıktısı `True` ise kurulum başarılı olmuştur.
 
 
 
