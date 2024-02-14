@@ -16,6 +16,6 @@ Tensorflow sayfası -->  https://www.tensorflow.org/install/source?hl=tr
 
 örneğin cuda 11.8 i ubuntu 20.04 e kurmak için
 
-''''
+`
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
-''''
+`
