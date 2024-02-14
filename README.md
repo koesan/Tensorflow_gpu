@@ -60,6 +60,7 @@ Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com
 `sudo cp /var/cudnn-local-repo-*/cudnn-local-*-keyring.gpg /usr/share/keyrings/`
 6. `sudo apt update`
 7. `sudo apt list libcudnn8` libcudnn8'in mevcut sürümlerümünü kontrol etmek için komutu çalıştır.
+   
 ör = libcudnn8/bilinmeyen,now 8.6.0.163-1+cuda11.8 amd64
 9. `sudo apt install libcudnn8=8.x.x.x-1+cudaX.Y` 8.x.x.x-1+cudaX.Y bu kısmı kurulu CUDA sürümüne uygun olarak şekilde güncelle.
 ör = `sudo apt install libcudnn8=8.6.0.163-1+cuda11.8`
@@ -82,7 +83,7 @@ CuDNN, Linux düzgün bir şekilde yüklenmiş ve çalışıyorsa, aşağıdakin
 
 `Test passed!`
 
-Not. Test Başarılı görüntülenmiyorsa eksik bir paketin kurulması gerekebilir. Terminal çıkışında belirtilen paketleri kur ve 4. adımı tekrar uygula ve tekrardan cuDNN kurulumunu doğrula.
+Not. Test Başarılı görüntülenmiyorsa, eksik bir paketin kurulması gerekebilir. Terminal çıkışında belirtilen paketleri kur ve 4. adımı tekrar uygula ve tekrardan cuDNN kurulumunu doğrula.
 
 
 
