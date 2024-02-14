@@ -83,9 +83,19 @@ CuDNN, Linux düzgün bir şekilde yüklenmiş ve çalışıyorsa, aşağıdakin
 
 Not. Test Başarılı görüntülenmiyorsa, eksik bir paketin kurulması gerekebilir. Terminal çıkışında belirtilen paketleri kur ve 4. adımı tekrar uygula ve tekrardan cuDNN kurulumunu doğrula.
 
+# 5.Tensorflow kurulumu.
 
+Terminalde
 
+`pip3 install tensorflow==2.15.0` komutunu çalıştırıp Tensorflow kurulumunu gerçekleştir.
 
+# 6.Kurulumunu Doğrulama
+
+Terminali açıp
+
+1. `python3` komutunu çalıştırın
+2. `import tensorflow as tf` kodu ile tensorflow kütüphanesi'nin importedin
+3. `print(tf.test.is_gpu_available())` kodunu çıktısı True ise kurulum başarılı olmuştur.
 
 
 
