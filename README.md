@@ -12,7 +12,7 @@ Tensorflow sayfası -->  https://www.tensorflow.org/install/source?hl=tr
 
 # 2.Cuda kurulumu
 
-İndireceğin cuda sürümünü belirledikten sonra https://developer.nvidia.com/cuda-toolkit-archive bu sayfadan kurmak istediğim cuda sürümünü seçip kur.
+İndireceğin cuda sürümünü belirledikten sonra https://developer.nvidia.com/cuda-toolkit-archive bu sayfadan kurmak istediğim cuda sürümünü kur.
 
 Örneğin ubuntu 20.04 sürümüne cuda 11.8 sürümünü kurmak için.
 
