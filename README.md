@@ -67,7 +67,7 @@ Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com
 
 # 4.cuDNN kurulumunu doğrula.
 
-`sudo apt-get install libfreeimage3 libfreeimage-dev` kütüphanelerini yükle.
+Terminalden `sudo apt-get install libfreeimage3 libfreeimage-dev` kütüphanelerini yükle.
 
 `cp -r /usr/src/cudnn_samples_v8/ $HOME`
 
