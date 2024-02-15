@@ -61,7 +61,7 @@ Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com
 6. `sudo apt update`
 7. `sudo apt list libcudnn8` libcudnn8'in mevcut sürümlerümünü kontrol etmek için komutu çalıştır. 
 
-    Ör çıktı= `libcudnn8/bilinmeyen,now 8.6.0.163-1+cuda11.8 amd64`
+    ör çıktı= `libcudnn8/bilinmeyen,now 8.6.0.163-1+cuda11.8 amd64`
    
 9. `sudo apt install libcudnn8=8.x.x.x-1+cudaX.Y` 8.x.x.x-1+cudaX.Y CUDA ve cudnn sürümüne göre düzelt.
 
