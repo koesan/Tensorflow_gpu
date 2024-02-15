@@ -2,9 +2,7 @@
 
 # 1.Cuda ve Cudnn sürümlerinin belirlenmesi
 
-Öncelikle Tensorlfow sayfasından hangi cuda ve cudnn sürümlerini indireceğini belirlemelisin.
-
-Tensorflow sayfası -->  https://www.tensorflow.org/install/source?hl=tr
+Öncelikle https://www.tensorflow.org/install/source?hl=tr bu sayfasından hangi cuda ve cudnn sürümlerini indireceğini belirlemelisin.
 
 ![Ekran görüntüsü 2024-02-14 20-35-35](https://github.com/koesan/Tensorflow_gpu/assets/96130124/086f5465-71d7-4a9f-bca3-f8630be0cd5b)
 
