@@ -95,9 +95,7 @@ Not. Test Başarılı olmadıysa, eksik bir paketin kurulması gerekebilir. Term
 
 # 5.Tensorflow kurulumu.
 
-Terminalde
-
-`pip3 install tensorflow==2.15.0` komutunu çalıştırıp Tensorflow kurulumunu gerçekleştir.
+Terminalde `pip3 install tensorflow==2.15.0` komutunu çalıştırıp Tensorflow kurulumunu gerçekleştir.
 
 # 6.Kurulumunu Doğrulama
 
