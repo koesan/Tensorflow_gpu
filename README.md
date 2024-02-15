@@ -65,15 +65,15 @@ Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com
    
 9. `sudo apt install libcudnn8=8.x.x.x-1+cudaX.Y` 8.x.x.x-1+cudaX.Y CUDA ve cudnn sürümüne göre düzelt.
 
-ör = `sudo apt install libcudnn8=8.6.0.163-1+cuda11.8` 
+    `sudo apt install libcudnn8=8.6.0.163-1+cuda11.8` 
 
 10. `sudo apt install libcudnn8-dev=8.x.x.x-1+cudaX.Y` 8.x.x.x-1+cudaX.Y bu kısmı düzelt.
 
-ör = `sudo apt install libcudnn8-dev=8.6.0.163-1+cuda11.8` 
+    `sudo apt install libcudnn8-dev=8.6.0.163-1+cuda11.8` 
 
 11. `sudo apt install libcudnn8-samples=8.x.x.x-1+cudaX.Y` 8.x.x.x-1+cudaX.Y bu kısmı düzelt.
 
-ör = `sudo apt install libcudnn8-samples=8.6.0.163-1+cuda11.8` 
+    `sudo apt install libcudnn8-samples=8.6.0.163-1+cuda11.8` 
 
 # 4.cuDNN kurulumunu doğrula.
 
