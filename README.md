@@ -6,7 +6,7 @@
 
 ![Ekran görüntüsü 2024-02-14 20-35-35](https://github.com/koesan/Tensorflow_gpu/assets/96130124/086f5465-71d7-4a9f-bca3-f8630be0cd5b)
 
-örneğin tensorflow-2.13.0 için cuda 11.8 ve cudnn 8.6 yı kurmalısın.
+Örneğin tensorflow-2.13.0 için cuda 11.8 ve cudnn 8.6 yı kurmalısın.
 
 # 2.Cuda kurulumu
 
