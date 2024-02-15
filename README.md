@@ -53,7 +53,7 @@ sudo reboot
 Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com/rdp/cudnn-archive sitesinden indir.
 
 1. Cuda 11.8 için cudnn 8.6 sürümünü indireceksin.
-2. terminalden `cd "dosyanın konumu"` komutunu kullanarak indirdiğin cudnn dosyası'nın bulunduğu dizine git.
+2. terminalden `cd "dosyanın konumu"` komutunu kullanarak indirdiğin cudnn dosyasının bulunduğu dizine git.
 3. Bu komutu kullanarak indirilen paketi yerel paket deposuna ekle.
 `sudo dpkg -i cudnn-local-repo-${OS}-8.x.x.x_1.0-1_amd64.deb` cudnn-local-repo-${OS}-8.x.x.x_1.0-1_amd64.deb bu kısım yerine indirdiğin cudnn dosyasını yaz.
 5. CUDA GPG anahtarını içe aktar.
