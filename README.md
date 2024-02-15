@@ -77,21 +77,17 @@ Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com
 
 # 4.cuDNN kurulumunu doğrula.
 
-1. Terminalden `sudo apt-get install libfreeimage3 libfreeimage-dev` kütüphanelerini yükle.
-
+1. Terminalde `sudo apt-get install libfreeimage3 libfreeimage-dev` komutu ile gerekli kütüphaneleri yükle.
 2. `cp -r /usr/src/cudnn_samples_v8/ $HOME`
-
 3. `cd  $HOME/cudnn_samples_v8/mnistCUDNN`
-
 4. `make clean && make`
-
 5. `./mnistCUDNN`
 
-CuDNN, Linux düzgün bir şekilde yüklenmiş ve çalışıyorsa, aşağıdakine benzer bir mesaj göreceksin:
+CuDNN, düzgün bir şekilde yüklenmiş ve çalışıyorsa, aşağıdakine benzer bir mesaj göreceksin:
 
 `Test passed!`
 
-Not. Test Başarılı olmadıysa, eksik bir paketin kurulması gerekebilir. Terminal çıkışında belirtilen paketleri kur ve 4. adımı tekrar uygula ve tekrardan cuDNN kurulumunu doğrula.
+Not. Test Başarılı olmadıysa, eksik bir paketin kurulması gerekebilir. Terminal çıkışında belirtilen paketleri kur ve 4. adımı tekrar uygula.
 
 # 5.Tensorflow kurulumu.
 
@@ -101,9 +97,10 @@ Terminalde `pip3 install tensorflow==2.15.0` komutunu çalıştırıp Tensorflow
 
 Terminali açıp
 
-1. `python3` komutunu çalıştırın
-2. `import tensorflow as tf` kodu ile tensorflow kütüphanesi'nin importet
-3. `print(tf.test.is_gpu_available())` kodunu çıktısı `True` ise kurulum başarılı olmuştur.
+1. `python3` komutunu çalıştır.
+2. `import tensorflow as tf` kodu ile tensorflow kütüphanesi'nin importet.
+3. `print(tf.test.is_gpu_available())` kodu çalıştır.
+4. Çıktı `True` ise kurulum başarılı olmuştur.
 
 
 
