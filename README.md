@@ -77,11 +77,12 @@ Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com
 
 # 4.cuDNN kurulumunu doğrula.
 
-1. Terminalde `sudo apt-get install libfreeimage3 libfreeimage-dev` komutu ile gerekli kütüphaneleri yükle.
-2. `cp -r /usr/src/cudnn_samples_v8/ $HOME`
-3. `cd  $HOME/cudnn_samples_v8/mnistCUDNN`
-4. `make clean && make`
-5. `./mnistCUDNN`
+1. Terminali açıp.
+2. `sudo apt-get install libfreeimage3 libfreeimage-dev` komutu ile gerekli kütüphaneleri yükle.
+3. `cp -r /usr/src/cudnn_samples_v8/ $HOME`
+4. `cd  $HOME/cudnn_samples_v8/mnistCUDNN`
+5. `make clean && make`
+6. `./mnistCUDNN`
 
 CuDNN, düzgün bir şekilde yüklenmiş ve çalışıyorsa, aşağıdakine benzer bir mesaj göreceksin:
 
