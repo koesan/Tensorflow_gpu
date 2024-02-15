@@ -1,6 +1,6 @@
 # Tensorflow_gpu
 
-# 1.Cuda ve Cudnn sürümleri'nin belirlenmesi.
+# 1.Cuda ve Cudnn sürümleri'nin belirlenmesi
 
 Öncelikle Tensorlfow sayfasından hangi cuda ve cudnn sürümlerini indireceğini belirlemelisin.
 
@@ -14,7 +14,7 @@ Tensorflow sayfası -->  https://www.tensorflow.org/install/source?hl=tr
 
 İndireceğin cuda sürümünü belirledikten sonra https://developer.nvidia.com/cuda-toolkit-archive bu sayfadan kurmak istediğim cuda sürümünü kur.
 
-Örneğin ubuntu 20.04 sürümüne cuda 11.8 sürümünü kurmak için.
+Örneğin ubuntu 20.04 sürümüne cuda 11.8 sürümünü kurmak için
 
 `
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
@@ -53,8 +53,8 @@ sudo reboot
 Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com/rdp/cudnn-archive sitesinden indir.
 
 1. Cuda 11.8 için cudnn 8.6 sürümünü indireceksin.
-2. terminalden `cd "dosyanın konumu"` komutunu kullanarak indirdiğin cudnn dosyası'nın olduğu dizine git
-3. Bu komutu kullanarak indirilen paketi yerel paket deposuna ekle
+2. terminalden `cd "dosyanın konumu"` komutunu kullanarak indirdiğin cudnn dosyası'nın bulunduğu dizine git.
+3. Bu komutu kullanarak indirilen paketi yerel paket deposuna ekle.
 `sudo dpkg -i cudnn-local-repo-${OS}-8.x.x.x_1.0-1_amd64.deb` cudnn-local-repo-${OS}-8.x.x.x_1.0-1_amd64.deb bu kısım yerine indirdiğin cudnn dosyasını yaz.
 5. CUDA GPG anahtarını içe aktar.
 `sudo cp /var/cudnn-local-repo-*/cudnn-local-*-keyring.gpg /usr/share/keyrings/`
@@ -75,7 +75,7 @@ Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com
 
     ör= `sudo apt install libcudnn8-samples=8.6.0.163-1+cuda11.8` 
 
-# 4.cuDNN kurulumunu doğrula.
+# 4.cuDNN kurulumunu doğrula
 
 1. Terminali açıp.
 2. `sudo apt-get install libfreeimage3 libfreeimage-dev` komutu ile gerekli kütüphaneleri yükle.
@@ -84,13 +84,13 @@ Kurduğun cuda sürümüne uygun cudnn sürümünü https://developer.nvidia.com
 5. `make clean && make`
 6. `./mnistCUDNN`
 
-CuDNN, düzgün bir şekilde yüklenmiş ve çalışıyorsa, aşağıdakine benzer bir mesaj göreceksin:
+CuDNN, düzgün bir şekilde yüklenmiş ve çalışıyorsa, aşağıdakine benzer bir mesaj göreceksin.
 
 `Test passed!`
 
 Not. Test Başarılı olmadıysa, eksik bir paketin kurulması gerekebilir. Terminal çıkışında belirtilen paketleri kur ve 4. adımı tekrar uygula.
 
-# 5.Tensorflow kurulumu.
+# 5.Tensorflow kurulumu
 
 Terminalde `pip3 install tensorflow==2.15.0` komutunu çalıştırıp Tensorflow kurulumunu gerçekleştir.
 
