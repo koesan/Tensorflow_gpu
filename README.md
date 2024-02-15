@@ -1,6 +1,6 @@
 # Tensorflow_gpu
 
-# 1.Cuda ve Cudnn sürümleri'nin belirlenmesi
+# 1.Cuda ve Cudnn sürümlerinin belirlenmesi
 
 Öncelikle Tensorlfow sayfasından hangi cuda ve cudnn sürümlerini indireceğini belirlemelisin.
 
